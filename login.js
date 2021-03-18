@@ -39,6 +39,7 @@ async function login() {
     }
 }
 
+// for conditionals based on role we need to parse the JWT
 function parseJwt(token) {
     let base64Url = token.split('.')[1];
     let base64 = base64Url.replace(/-/g, '+').replace(/_/g, '/');

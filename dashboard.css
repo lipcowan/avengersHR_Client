@@ -1,0 +1,12 @@
+#heading {
+    color: white;
+}
+
+.grid-container {
+    max-width: 90vw;
+    margin:2vh auto;
+}
+
+.new-request{
+    margin-bottom: 2vh;
+}
